@@ -1,12 +1,15 @@
 const buttons = document.querySelectorAll("button");
+const menuItens = document.querySelectorAll(".menu-item");
+
 const logScroll = () => {
   console.log(window.scrollY);
-  window.scroll({
-    top: 533,
-    left: 0,
-    behavior: "smooth",
-  });
+  //   window.scroll({
+  //     top: 533,
+  //     left: 0,
+  //     behavior: "smooth",
+  //   });
 };
+
 for (let index = 0; index < buttons.length; index++) {
   const button = buttons[index];
   button.addEventListener("click", logScroll);

@@ -22,9 +22,9 @@
         />
         <p>Meow Café</p>
         <nav class="header-menu">
-          <a class="menu-item selected" href="#">Início</a>
-          <a class="menu-item" href="#">Produtos</a>
-          <a class="menu-item" href="#">Sobre</a>
+          <a class="menu-item" href="#">Início</a>
+          <a class="menu-item" href="#products">Produtos</a>
+          <a class="menu-item" href="#about">Sobre</a>
         </nav>
       </div>
       <div class="header-buttons">
@@ -48,7 +48,7 @@
       />
     </section>
 
-    <section class="drinks-container">
+    <section id="products" class="drinks-container">
       <img
         class="drinks-img"
         src="./public/assets/SessionTwoImage.png"
@@ -74,7 +74,7 @@
           <p class="card-description">
             Café expresso , leite vaporizado, espuma e um toque de caramelo.
           </p>
-          <button class="card-button">Delivery</button>
+          <button class="terciary-button">Delivery</button>
         </div>
         <div class="card">
           <img
@@ -87,7 +87,7 @@
           <p class="card-description">
             O clássico, amado pelos brasileiros, com um toque de sofisticação!
           </p>
-          <button class="card-button">Delivery</button>
+          <button class="terciary-button">Delivery</button>
         </div>
         <div class="card">
           <img
@@ -100,7 +100,7 @@
           <p class="card-description">
             Grãos selecionados feitos no seu método de preparo favorito.
           </p>
-          <button class="card-button">Delivery</button>
+          <button class="terciary-button">Delivery</button>
         </div>
       </div>
     </section>
@@ -123,6 +123,109 @@
         class="croissants-img"
       />
     </section>
+    <section class="delivery-container">
+      <img
+        class="delivery-img"
+        src="./public/assets/deliveryImg.png"
+        alt="packeges and cups"
+      />
+      <div class="delivery-text">
+        <h2 class="delivery-title">Levamos até você!</h2>
+        <p class="delivery-description">
+          Estamos nos principais aplicativos de Delivery!
+        </p>
+        <button class="terciary-button">Delivery</button>
+      </div>
+    </section>
+
+    <section id="about" class="about-container">
+      <img
+        class="about-img"
+        src="./public/assets/aboutImg.png"
+        alt="coffee cup and coffee beans"
+      />
+      <div class="about-text">
+        <div class="about-text-left">
+          <p>Sobre nós</p>
+          <h2>
+            Nós oferecemos uma experiência inesquecível para amantes de café e
+            pais de pet!
+          </h2>
+        </div>
+        <div class="about-text-right">
+          <p class="about-text-right-title">
+            O melhor lugar para apreciar o seu café
+          </p>
+          <p>
+            No Meow Cafe, priorizamos a criação de um espaço onde tanto os seres
+            humanos quanto seus animais de estimação possam relaxar e desfrutar.
+          </p>
+          <p>
+            Nosso design interior é inspirado na harmonia e conforto, com sofás
+            aconchegantes, iluminação suave e uma decoração que remete à
+            natureza e à alegria que os animais trazem para nossas vidas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-container">
+      <div class="contact-card">
+        <img
+          class="contact-card-img"
+          src="./public/assets/contactImg.png"
+          alt="cup of coffee"
+        />
+        <h2 class="contact-card-title">Meow <br />Enjoy</h2>
+        <p class="contact-card-subtitle">Todos os sábados e domingos</p>
+        <p class="contact-card-description">
+          Venha tomar o seu brunch com a gente!
+        </p>
+        <button class="secondary-button">Faça uma reserva ></button>
+        <div class="contact-card-overlay">
+          <h2 class="contact-card-overlay-title">Onde estamos</h2>
+          <p class="contact-card-overlay-subtitle">
+            Você pode nos encontrar no endereço:
+          </p>
+          <div class="contact-card-overlay-address">
+            <img
+              src="./public/assets/locationIcon.png"
+              alt="location pin icon"
+            />
+            <p>Rua do Miado 234, Gatolândia</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-container">
+      <div class="footer-informations">
+        <p class="footer-title">Informações</p>
+        <p>
+          Todos os direitos reservados Meow Cafe Ltda. <br />
+          Um lugar perfeito para pais de pets e amantes de café!
+        </p>
+        <div class="footer-icons">
+          <img src="./public/assets/instagram.png" alt="instagram logo" />
+          <img src="./public/assets/facebook.png" alt="facebook logo" />
+          <img src="./public/assets/whatsApp.png" alt="whatsApp logo" />
+        </div>
+      </div>
+      <div class="footer-links">
+        <p class="footer-title">Links Úteis</p>
+        <a href="#">Inicio</a>
+        <a href="#about">Sobre</a>
+        <a href="#products">Produtos</a>
+        <a href="#delivery">Deavery</a>
+        <a href="#">Login</a>
+      </div>
+      <div class="footer-intitutional">
+        <p class="footer-title">Institucional</p>
+        <p>
+          CNPJ: XX. XXX. XXX/0001-XX Endereço: Lorem ipsum, 64 Política de
+          Privacidade Dúvidas Frequentes Ajuda Acessibilidade
+        </p>
+      </div>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
